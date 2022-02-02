@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ropa</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Almacen prendas de vestir</h1>
+    </header>
+
+    <form id="formulario-prenda-vestir">
+      <div>
+        <label for="nombre-prenda-vestir">Nombre</label>
+        <input
+          type="text"
+          name="nombre-prenda-vestir"
+          id="nombre-prenda-vestir"
+        />
+      </div>
+      <div>
+        <label for="talla-prenda-vestir">Talla</label>
+        <input
+          type="text"
+          name="talla-prenda-vestir"
+          id="talla-prenda-vestir"
+        />
+      </div>
+      <div>
+        <label for="marca-prenda-vestir">Marca</label>
+        <input
+          type="text"
+          name="marca-prenda-vestir"
+          id="marca-prenda-vestir"
+        />
+      </div>
+      <div>
+        <label for="cantidad-prenda-vestir">Cantidad</label>
+        <input
+          type="number"
+          name="cantidad-prenda-vestir"
+          id="cantidad-prenda-vestir"
+        />
+      </div>
+      <div id="contenedor-agregar-prenda">
+        <button type="button" id="agregar">Agregar</button>
+      </div>
+    </form>
+    <table id="tabla-prenda-vestir">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Talla</th>
+          <th>Marca</th>
+          <th>Cantidad</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <footer>© 2022</footer>
+
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="mocks/prendas.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
