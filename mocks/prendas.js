@@ -1,8 +1,8 @@
-const prendasDeVestir = [
+let prendasDeVestir = [
   {
-    nombre: 'Pantalón',
-    talla: '20',
-    marca: 'Gucci',
-    cantidad: 50,
+    nombre: 'camisa',
+    talla: 'm',
+    marca: 'gucci',
+    cantidad: 12,
   },
 ];
